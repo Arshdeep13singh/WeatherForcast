@@ -4,7 +4,7 @@ const ForecastCard=({day,isCelsius})=>{
   const date=new Date(day.dt_txt).toLocaleDateString('en-US',{weekday:'long'});
     const tempMax=isCelsius?day.main.temp_max :(day.main.temp_max*9/5)+32;
     const tempMin=isCelsius?day.main.temp_min :(day.main.temp_min*9/5)+32;
-    const iconUrl = `http://openweathermap.org/img/wn/${day.weather[0].icon}.png`;
+    const iconUrl = `https://openweathermap.org/img/wn/${day.weather[0].icon}.png`;
   
   return(
     <ForecastContainer>

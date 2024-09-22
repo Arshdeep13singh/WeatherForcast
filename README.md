@@ -24,3 +24,6 @@
 1. Search for a city using the search bar.
 2. Toggle between Celsius and Fahrenheit using the button.
 3. View the 5-day weather forecast below the current weather data.
+
+## Link
+https://jade-lamington-650f12.netlify.app/
